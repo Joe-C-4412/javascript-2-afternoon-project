@@ -93,13 +93,19 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
-function evenFinder (num) {
-  for (Look at the videos)
+function evenFinder (nums) {
   
+  for (var i = 0; i < nums.length; i++) {
+    if (nums[i] % 2 === 0) {
+      return (nums[i])
+    }
+  }
 }
 
-
-
+// evenFinder[(nums)];
+//evenFinder(nums);
+//evenFinder[];
+//How do I return an Array 
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////

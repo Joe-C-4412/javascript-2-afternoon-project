@@ -77,6 +77,8 @@ favoriteThings.book = 'Harry Potter'
 var backPack = {}
 var item = 'firstPocket'
 
+backPack[item] = 
+
 /*
   After you do the above, alert your entire backPack object.
 */

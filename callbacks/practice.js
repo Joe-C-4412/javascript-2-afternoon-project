@@ -97,7 +97,13 @@ multiply(4, 3, function(answer){
 //Code Here 
 
 function contains(array, name, cb) {
-  
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === name) {
+      return cb(true)
+    } else{
+      return cb(false)
+    }
+  }
 }
 
 // Do not edit the code below.
